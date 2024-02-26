@@ -7,8 +7,13 @@ import org.junit.Test;
 public class testweakmethod2B {
 	@Test
     public void testweakmethod_2B() {
-        assertEquals(17, WeakClass.weakMethod2(11, 1)); 
-        assertEquals(23, WeakClass.weakMethod2(7, 6)); 
+        assertEquals(5, WeakClass.weakMethod2(6, 2)); 
+        assertEquals(24, WeakClass.weakMethod2(16, 2)); 
+        assertEquals(8, WeakClass.weakMethod2(12, 2)); 
+        assertEquals(24, WeakClass.weakMethod2(12, 6)); 
+
+
+        
     }
 
 }

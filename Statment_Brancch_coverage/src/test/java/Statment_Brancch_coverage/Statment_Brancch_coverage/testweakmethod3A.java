@@ -8,8 +8,9 @@ public class testweakmethod3A {
 	
 	  @Test
 	    public void testweakmethod_3A() {
-	    	assertEquals(5, WeakClass.weakMethod3(6, 3)); 
-	        assertEquals(10, WeakClass.weakMethod3(4, 2)); 
+	    	assertEquals(11, WeakClass.weakMethod3(6, 3)); 
+	        assertEquals(18, WeakClass.weakMethod3(15, 3)); 
+
 
 	    	
 
